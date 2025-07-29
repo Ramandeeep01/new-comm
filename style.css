@@ -1,0 +1,503 @@
+#indexbody {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 145px;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    background: linear-gradient(to top,#e3f7ff 0%,
+  #c2ecff 5%,
+  #a0e0ff 10%,  
+  #7cd2ff 15%,
+  #57c2ff 20%,
+  #36aefa 25%,
+  #209ae8 30%,
+  #1686d3 35%,
+  #136fbb 40%,
+  #125fa6 45%,
+  #144e91 50%,
+  #1a3c7d 55%,
+  #202b6a 60%,
+  #1c1f56 65%,
+  #181542 70%,
+  #140e2e 75%,
+  
+  #140e2e 100%
+    );
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 20px;
+
+}
+
+.link1 {
+    text-decoration: none;
+    color: yellow;
+    font-size: 28px;
+    margin: 50px; 
+    margin-top: 2px; 
+    margin-left: 40px;
+     
+}
+
+#heading1 {
+    color: yellow;
+    font-size: 50px;
+    position: relative;
+    margin-top: -35px;
+    margin-left: 22px;
+    animation: head 1s normal none infinite;
+}   
+
+@keyframes head {
+    0% {
+        color: yellow;
+    }
+    25% {
+        color: red;
+    }
+    50% {
+        color: orange;
+    }
+    75% {
+        color: blueviolet;
+    }
+    100% {
+        color: aqua;
+    }
+}
+
+#inp1 {
+    height: 18px;
+    width: 700px;
+    margin-top: 110px;
+    margin-left: -925px;
+}
+
+#but1 {
+    height: 24px;
+    width: 55px;
+    margin-top: 110px;
+    margin-left: 4px;
+    color: blue;
+}
+
+#but1:active {
+    background-color: skyblue;
+    color: black;
+}
+
+#imghm {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 13px;
+}
+
+#imgct {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 5px;
+}
+
+#imgus {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 30px;
+}
+
+#imgcart {
+    position: absolute;
+    margin-top: -44px;
+    margin-left: -2px;
+}
+
+#imgin {
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 30px;
+}
+
+#imgsin {
+    position: absolute;
+    margin-top: -34px;
+    margin-left: 15px;
+}
+
+#hrr {
+    margin-top: -40px;
+}
+
+#hrrrr {
+    margin-top: 165px;
+}
+
+#hrrr {
+    margin-top: -20px;
+}
+    
+#heading2 {
+    margin-top: 160px;
+    font-size: 345x;
+    color: red;
+    position: relative;
+    animation: welcome 10s linear none infinite; 
+}
+
+#heading3 {
+    color: red;
+    margin-left: 73px;
+}
+
+#heading4 {
+    margin-top: 150px;
+    margin-left: 785px;
+}
+
+@keyframes welcome {
+    from {
+        transform: translate(-510px);
+    }
+    to {
+        transform: translate(1340px);
+    }
+}
+
+#logo {
+    width: 1250px;
+    height: 150px;
+    background: linear-gradient(to right bottom, skyblue, white, skyblue);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-top: -5px
+}
+
+#logoimg {
+    overflow: hidden;
+    margin-top: -35px;
+    margin-left:30px;
+}
+
+#para1 {
+    font-size: 20px;
+    margin-top: -110px;
+    margin-left: 400px;
+    color: black;
+}
+
+#parent0 {
+    height: 180px;
+    width: 1210px;
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin-top: -16px;
+    scrollbar-width: none;
+}
+
+#parent0 a {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+#parent0 a :hover {
+    transform: translateY(-10px)
+}
+
+.childe {
+    height: 100px;
+    width: 120px;
+    padding: 5px;
+    background-color: #E0F7FF;
+    border-radius: 50% 50% 0% 0%;
+    margin: 5px;
+    flex-shrink: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+#parentab {
+    width: 250px;
+    height: 433px;
+    margin-left: 40px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.childa {
+    height: 80px;
+    width: 200px;
+    border-radius: 10% 0% 25% 0%;
+    background: linear-gradient(to right bottom, blue, skyblue, white, skyblue, blue);
+    margin: 5px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.childa :hover {
+    transform: scale(1.1);
+}
+
+.chh {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+#parentcd {
+    height: 433px;
+    width: 1100px;
+    margin-left: px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+#parentcd a {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    margin-top: 17px;
+
+}
+
+.childy {
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.childy:hover {
+    transform: scale(1.1);
+}
+
+#p1 {
+    margin-top: px;
+    color: black;
+}
+
+#p2 {
+    margin-top: 4px;
+    color: black;
+}
+
+#p3 {
+    margin-top: 5px;
+    color: black;
+}
+
+#p4 {
+    margin-top: -4px;
+    color: black;
+}
+
+#p5 {
+    margin-top: -5px;
+    color: black;
+}
+
+#p6 {
+    margin-top: -9px;
+    color: black;
+}
+
+#p7 {
+    margin-top: -6px;
+    color: black;
+}
+
+#p8 {
+    margin-top: -5px;
+    color: black;
+}
+
+#p9 {
+    margin-top: -5px;
+    color: black;
+}
+
+#p10 {
+    margin-top: -2px;
+    color: black;
+}
+
+#p11 {
+    margin-top: -10px;
+    color: black;
+}
+
+#p12 {
+    color: black;
+}
+
+#p13 {
+    margin-top: -2px;
+    color: black;
+}
+
+#i1 {
+    margin-top: -30px;
+}
+
+#i2 {
+    margin-top: -13px;
+}
+
+#i3 {
+    margin-top: -15px;
+}
+
+#i4 {
+    margin-top: 3px;
+}
+
+#i5 {
+    margin-left: -15px;
+    margin-top: -5px;
+}
+
+#i7 {
+    margin-top: 15px;
+}
+
+#i8 {
+    margin-top: 25px;
+}
+
+#i9 {
+    margin-top: -4px;
+}
+
+#i10 {
+    margin-top: 13px;
+}
+
+#i12 {
+    margin-top: 10px;
+}
+
+#i13 {
+    margin-top: -8px;
+}
+
+/*men*/
+
+.hhhrs {
+    margin-top: -15px;
+}
+
+/*login*/
+
+#loginbody {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(loginback.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#logindiv {
+    height: 390px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 15px;
+    margin-top: 118px;
+    color: white;
+}
+
+#heading5 {
+    font-size: 50px;
+}
+
+.inputup {
+    height: 30px;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 40px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.inputup:hover {
+    transform: scale(1.05);
+}
+
+.inputup::placeholder {
+    color: white;
+}
+
+#forgot {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-left: 240px;
+}
+
+#tapdiv {
+    height: 30px;
+    width: 350px;
+    background-color: white;
+    margin-left: 25px;
+    border-radius: 40px;
+    color: black;
+}
+
+#tapdiv :active {
+    background-color: black;
+    color: white;
+}
+
+#heading6 {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#logintap {
+    text-decoration: none;
+}
+
+
+#reg {
+    text-decoration: none;
+    color: white;
+}
+
